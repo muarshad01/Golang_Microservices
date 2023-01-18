@@ -8,4 +8,4 @@ $ mv front-end/ go-micro/
   - Save As: **workspace.code-workspace**
     - /Users/marshad/Desktop/**go-micro**
 * File -> Add Folder to Workspace
-  - /Users/marshad/Desktop/go-micro/**front-end**
+  - /Users/marshad/Desktop/**go-micro/front-end**
