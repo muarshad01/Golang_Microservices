@@ -9,3 +9,7 @@ $ mv front-end go-micro
   - <...>/**go-micro**
 * File -> Add Folder to Workspace
   - <...>/**go-micro/front-end**
+
+```
+$ go run ./cmd/web
+```
