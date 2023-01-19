@@ -1,7 +1,7 @@
 
 ```
 $ mkdir go-micro
-$ mv front-end go-micro
+$ mv frontend go-micro
 ```
 
 * File -> Save Workspace AS
