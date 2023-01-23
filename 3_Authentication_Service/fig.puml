@@ -1,0 +1,54 @@
+@startuml
+namespace data {
+    class Models << (S,Aquamarine) >> {
+        + User User
+
+    }
+    class User << (S,Aquamarine) >> {
+        + ID int
+        + Email string
+        + FirstName string
+        + LastName string
+        + Password string
+        + Active int
+        + CreatedAt time.Time
+        + UpdatedAt time.Time
+
+        + GetAll() ([]*User, error)
+        + GetByEmail(email string) (*User, error)
+        + GetOne(id int) (*User, error)
+        + Update() error
+        + Delete() error
+        + DeleteByID(id int) error
+        + Insert(user User) (int, error)
+        + ResetPassword(password string) error
+        + PasswordMatches(plainText string) (bool, error)
+
+    }
+}
+
+
+namespace main {
+    class Config << (S,Aquamarine) >> {
+        + DB *sql.DB
+        + Models data.Models
+
+        - routes() http.Handler
+        - readJSON(w http.ResponseWriter, r *http.Request, data any) error
+        - writeJSON(w http.ResponseWriter, status int, data any, headers ...http.Header) error
+        - errorJSON(w http.ResponseWriter, err error, status ...int) error
+        - routes() http.Handler
+
+        + Broker(w http.ResponseWriter, r *http.Request) 
+
+    }
+    class jsonResponse << (S,Aquamarine) >> {
+        + Error bool
+        + Message string
+        + Data any
+
+    }
+}
+
+
+@enduml
