@@ -1,2 +1,2 @@
 
-![Dir Structure for Project](/Users/marshad/Desktop/Microservices-in-Go/5_Mail_Service/project.png)
+![Dir Structure of Project](https://github.com/muarshad01/Microservices-in-Go/blob/main/5_Mail_Service/project.png)
