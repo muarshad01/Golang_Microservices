@@ -1,3 +1,12 @@
+## Makefile
+
+```
+$ docker-compose down
+$ make stop             # stop frontend
+$ make up_build
+$ make start            # start frontend
+```
+
 
 ## Frondend
 
