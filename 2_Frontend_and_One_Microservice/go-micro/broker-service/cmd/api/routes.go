@@ -9,6 +9,7 @@ import (
 )
 
 func (app *Config) routes() http.Handler {
+	// create a new router (mux)
 	mux := chi.NewRouter()
 
 	// specify who is allowed to connect
@@ -23,6 +24,7 @@ func (app *Config) routes() http.Handler {
 
 	mux.Use(middleware.Heartbeat("/ping"))
 
+	// register an end point
 	mux.Post("/", app.Broker)
 
 	return mux
