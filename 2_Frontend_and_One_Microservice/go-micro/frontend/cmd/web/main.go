@@ -8,9 +8,12 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+
+	f1 := func(w http.ResponseWriter, r *http.Request) {
 		render(w, "test.page.gohtml")
-	})
+	}
+
+	http.HandleFunc("/", f1)
 
 	fmt.Println("Starting front end service on port 80")
 	err := http.ListenAndServe(":80", nil)
@@ -30,9 +33,7 @@ func render(w http.ResponseWriter, t string) {
 	var templateSlice []string
 	templateSlice = append(templateSlice, fmt.Sprintf("./cmd/web/templates/%s", t))
 
-	for _, x := range partials {
-		templateSlice = append(templateSlice, x)
-	}
+	templateSlice = append(templateSlice, partials...)
 
 	tmpl, err := template.ParseFiles(templateSlice...)
 	if err != nil {
