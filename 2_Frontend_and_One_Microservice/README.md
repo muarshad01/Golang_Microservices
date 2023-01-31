@@ -1,7 +1,7 @@
 
 
 
-![Code Tree Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/broker.png)
+![Code Tree Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png)
 
 ***
 
