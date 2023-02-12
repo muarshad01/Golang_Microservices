@@ -20,17 +20,14 @@ export GO111MODULE="on"
 
 [Protocol Buffer Compiler Installation](https://grpc.io/docs/protoc-installation/)
 
-Goto `https://github.com/protocolbuffers/protobuf/releases` under Assets: download `protoc-21.12-osx-aarch_64.zip`
+Goto --> `https://github.com/protocolbuffers/protobuf/releases` --> Assets `protoc-21.12-osx-aarch_64.zip`
 
 ```
 $ cp ./bin/protoc $GOBIN
+$ protoc --version
 ```
 
-```
-protoc --version
-```
-
-```
+```go
 $ protoc \ 
 --go_out=. \ 
 --go_opt=paths=source_relative \
