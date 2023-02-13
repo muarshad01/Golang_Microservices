@@ -12,13 +12,13 @@ $ go install google.golang.org/grpc/    cmd/protoc-gen-go-grpc@v1.2
 
 ***
 
-## Install VSCode extension 
+### Install VSCode extension 
 
 `Profobuf support`
 
 ***
 
-## `~/.bash_profile`
+### `~/.bash_profile`
 
 ```bash
 export GOROOT=/usr/local/go
@@ -34,7 +34,7 @@ export GO111MODULE="on"
 
 Goto --> `https://github.com/protocolbuffers/protobuf/releases` --> Assets `protoc-21.12-osx-aarch_64.zip`
 
-```
+```bash
 $ cp ./bin/protoc $GOBIN
 $ protoc --version
 ```
@@ -52,7 +52,7 @@ logs.proto
 
 ***
 
-```
+```go
 $ go get google.golang.org/grpc
 $ go get google.golang.org/protobuf
 ```
