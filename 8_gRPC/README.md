@@ -1,7 +1,7 @@
 
 [gRPC Website](https://grpc.io/)
 
-## Tools for compiling .proto file
+## Tools for compiling <file-name>.proto file
 
 ```
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
