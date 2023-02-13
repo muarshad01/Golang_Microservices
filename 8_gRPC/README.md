@@ -3,7 +3,7 @@
 
 ***
 
-## Tools for compiling <file-name>.proto file
+## Tools for compiling `.proto` file
 
 ```
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
