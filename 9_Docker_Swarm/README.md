@@ -17,6 +17,7 @@ $ docker login
 Username: <username>
 Password: <password>
 
+$ cd broker-service
 $ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
 $ docker push marshad1/broker-service:1.0.0
 ```
