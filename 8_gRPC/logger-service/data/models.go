@@ -27,18 +27,18 @@ type Models struct {
 
 type LogEntry struct {
 	ID        string    `bson:"_id,omitempty" json:"id,omitempty"`
-	Name      string    `bson:"name" json:"name"`
-	Data      string    `bson:"data" json:"data"`
-	CreatedAt time.Time `bson:"created_at" json:"created_at"`
-	UpdatedAt time.Time `bson:"updated_at" json:"updated_at"`
+	Name      string    `bson:"name"          json:"name"`
+	Data      string    `bson:"data"          json:"data"`
+	CreatedAt time.Time `bson:"created_at"    json:"created_at"`
+	UpdatedAt time.Time `bson:"updated_at"    json:"updated_at"`
 }
 
 func (l *LogEntry) Insert(entry LogEntry) error {
 	collection := client.Database("logs").Collection("logs")
 
 	_, err := collection.InsertOne(context.TODO(), LogEntry{
-		Name: entry.Name,
-		Data: entry.Data,
+		Name:      entry.Name,
+		Data:      entry.Data,
 		CreatedAt: time.Now(),
 		UpdatedAt: time.Now(),
 	})
