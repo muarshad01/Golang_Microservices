@@ -15,6 +15,7 @@ $ docker push marshad1/logger-service:1.0.0
 ERROR: denied: requested access to the resource is denied
 $ docker login
 Username: <username>
+Username: marshad1
 Password: <password>
 
 $ cd broker-service
