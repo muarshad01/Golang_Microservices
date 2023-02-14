@@ -16,4 +16,7 @@ ERROR: denied: requested access to the resource is denied
 $ docker login
 Username: <username>
 Password: <password>
+
+$ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
+$ docker push marshad1/broker-service:1.0.0
 ```
