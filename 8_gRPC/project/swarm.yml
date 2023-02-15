@@ -5,7 +5,7 @@ version: '3'
 
 services:
   broker-service:
-    image: tsawler/broker-service:1.0.0
+    image: marshad1/broker-service:1.0.0
     ports:
       - "8080:80"
     deploy:
@@ -13,13 +13,13 @@ services:
       replicas: 1
 
   listener-service:
-    image: tsawler/listener-service:1.0.0
+    image: marshad1/listener-service:1.0.0
     deploy:
       mode: replicated
       replicas: 1
 
   authentication-service:
-    image: tsawler/authentication-service:1.0.0
+    image: marshad1/authentication-service:1.0.0
     deploy:
       mode: replicated
       replicas: 1
@@ -27,13 +27,13 @@ services:
       DSN: "host=postgres port=5432 user=postgres password=password dbname=users sslmode=disable timezone=UTC connect_timeout=5"
 
   logger-service:
-    image: tsawler/logger-service:1.0.0
+    image: marshad1/logger-service:1.0.0
     deploy:
       mode: replicated
       replicas: 1
 
   mailer-service:
-    image: tsawler/mail-service:1.0.0
+    image: marshad1/mail-service:1.0.0
     deploy:
       mode: replicated
       replicas: 1
