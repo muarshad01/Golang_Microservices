@@ -34,3 +34,12 @@ $ docker swarm join-token <role>
 $ docker swarm join-token worker
 $ docker swarm join-token manager
 ```
+
+Deploy Docker Swarm 
+
+```
+$ docker stack deploy -c <configuration-file> <swarn-name>
+$ docker stack deploy -c swarm.yml myapp
+
+$ docker service ls
+```
