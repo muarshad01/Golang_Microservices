@@ -23,7 +23,7 @@ $ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
 $ docker push marshad1/broker-service:1.0.0
 ```
 
-### Initializing and starting Docker Swarm
+### 78 Initializing and starting Docker Swarm
 
 ```
 $ docker swarm init
