@@ -51,7 +51,7 @@ $ docker service scale myapp_listener-service=3
 $ docker service ls
 ```
 
-### Updating services
+### 81 Updating services
 
 ```
 $ cd logger-service
@@ -61,5 +61,8 @@ $ docker service ls
 ```
 
 ```
-$ docker service update --image marshad1/logger-service:1.0.1 myapp_docker-service
+$ docker service update --image marshad1/logger-service:1.0.1 myapp_docker-service #up-grade
+$ docker service ls
+$ docker service update --image marshad1/logger-service:1.0.0 myapp_docker-service #down-grade
+$ docker service ls
 ```
