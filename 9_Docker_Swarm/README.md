@@ -66,3 +66,10 @@ $ docker service ls
 $ docker service update --image marshad1/logger-service:1.0.0 myapp_docker-service #down-grade
 $ docker service ls
 ```
+
+### Stopping docker swarm
+
+```
+$ docker stack rm myapp
+$ docker swarm leave --force
+```
