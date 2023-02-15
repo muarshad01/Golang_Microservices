@@ -44,22 +44,8 @@ $ docker stack deploy -c swarm.yml myapp
 $ docker service ls
 ```
 
-### 80 Scaling services
+### 80 Scaling Services
 
 ```
 $ docker service scale myapp_listener-service=3
-$ docker service ls
-```
-
-### Updating services
-
-```
-$ cd logger-service
-$ docker build -f logger-service.dockerfile -t marshad1/logger-service:1.0.1 .
-$ docker push marshad1/logger-service:1.0.1
-$ docker service ls
-```
-
-```
-$ docker service update --image marshad1/logger-service:1.0.1 myapp_docker-service
 ```
