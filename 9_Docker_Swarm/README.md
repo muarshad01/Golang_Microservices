@@ -67,7 +67,7 @@ $ docker service update --image marshad1/logger-service:1.0.0 myapp_docker-servi
 $ docker service ls
 ```
 
-### Stopping docker swarm
+### 82 Stopping docker swarm
 
 ```
 $ docker stack rm myapp
