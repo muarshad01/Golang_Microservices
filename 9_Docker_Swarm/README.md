@@ -22,3 +22,15 @@ $ cd broker-service
 $ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
 $ docker push marshad1/broker-service:1.0.0
 ```
+
+### Initializing and starting Docker Swarm
+
+```
+$ docker swarm init
+```
+
+```
+$ docker swarm join-token <role>
+$ docker swarm join-token worker
+$ docker swarm join-token manager
+```
