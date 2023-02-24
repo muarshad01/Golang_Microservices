@@ -102,3 +102,32 @@ $ cd ../front-end
 $ docker build -f front-end.dockerfile -t marshad1/front-end:1.0.1 .
 $ docker push marshad1/front-end:1.0.1
 ```
+
+### 92 Setting up a non-root account and putting a firewall in place
+
+
+```
+# Create a user
+$ ssh root@a.b.c.d
+$ adduser mua
+New password:
+Retype new password:
+
+# Sudo priviliges
+$ usermod -aG sudo mua
+
+# Setup basic firewall
+$ ufw allow ssh     # uncomplicated fire-wall
+$ ufw allow http
+$ ufw allow https
+$ ufw allow 2377/tcp
+$ ufw allow 7946/tcp
+$ ufw allow 7946/udp
+$ ufw allow 4789/udp
+$ ufw allow 8025/tcp
+
+$ ufw enable
+$ ufw status
+```
+
+### 93 Installing Docker on the servers
