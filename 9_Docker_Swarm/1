@@ -143,9 +143,3 @@ $ ssh mua@a.b.c.d
 ### 95 Adding DNS entries for our servers
 
 [GoDaddy](https://www.godaddy.com/)
-
-### 97 Initializing manager, and adding a worker
-
-```
-$ sudo docker swarm init --advertise-addr a.b.c.d
-```
