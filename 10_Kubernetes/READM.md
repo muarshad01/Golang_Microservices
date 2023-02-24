@@ -10,6 +10,18 @@ $ which minikube
 
 [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
+```
+$ which kubectl
+/usr/local/bin/kubectl
+
+```
+
 ### Initializing a cluster
 
+```
+$ minikube start --nodes=2
+$ minikube delete
+$ minikube start --nodes=2
 
+$ minikube status
+```
