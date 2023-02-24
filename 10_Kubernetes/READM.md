@@ -16,12 +16,10 @@ $ which kubectl
 
 ```
 
-### Initializing a cluster
+### 105 Initializing a cluster
 
 ```
 $ minikube start --nodes=2
-$ minikube delete
-$ minikube start --nodes=2
-
 $ minikube status
+$ minikube delete
 ```
