@@ -21,5 +21,12 @@ $ which kubectl
 ```
 $ minikube start --nodes=2
 $ minikube status
+$ minikube stop
 $ minikube delete
+```
+
+### 106 Bringing up the k8s dashboard
+
+```
+$ minikube dashboard
 ```
