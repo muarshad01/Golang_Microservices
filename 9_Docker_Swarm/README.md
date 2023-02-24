@@ -73,3 +73,32 @@ $ docker service ls
 $ docker stack rm myapp
 $ docker swarm leave --force
 ```
+
+### 86 Adding Caddy to the mix as a Proxy to our front end and the broker
+
+Apache / Nginx / Caddy
+
+[Caddy](https://caddyserver.com/)
+
+```
+$ docker build -f caddy.dockerfile -t marshad1/micro-caddy:1.0.0 .
+$ docker push marshad1/micro-caddy:1.0.0
+```
+
+### 87 Modifying out hosts file...
+
+```
+$ docker swarm init
+$ docker stack deploy -c swarm.yml myapp
+```
+
+### 88 Correcting the URL
+
+### 89 Solution to challenge
+
+```
+$ make build_front_linux
+$ cd ../front-end
+$ docker build -f front-end.dockerfile -t marshad1/front-end:1.0.1 .
+$ docker push marshad1/front-end:1.0.1
+```
