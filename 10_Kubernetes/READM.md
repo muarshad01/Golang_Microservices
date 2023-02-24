@@ -22,6 +22,7 @@ $ which kubectl
 $ minikube start --nodes=2
 $ minikube status
 $ minikube stop
+$ minikube start
 $ minikube delete
 ```
 
