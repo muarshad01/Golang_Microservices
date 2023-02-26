@@ -31,3 +31,30 @@ $ minikube delete
 ```
 $ minikube dashboard
 ```
+
+### 107 Creating a deployment file for Mongo
+
+```
+$ minikube status
+$ minikube start
+```
+
+```
+$ kubectl get pods          # A POD can've one or more containers in it; A POD can've one or more service in it
+$ kubectt get pods -A
+```
+
+```
+$ mkdir k8s
+$ cd k8s
+$ touch mongo.yml
+
+$ kubectl apply -f k8s
+$ kubectl get pods
+
+$ minikube dashboard
+
+$ kubectl get svc
+
+$ kubect get deployments
+```
