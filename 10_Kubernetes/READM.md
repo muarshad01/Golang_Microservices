@@ -98,3 +98,15 @@ $ kubectl logs broker-service-5cbf7979ff-859sz
 ```
 $ docker-compose -f postgres.yml up -d
 ```
+
+### 117 Trying things out by adding a LoadBalancer service
+
+Three ways: nodePort / LoadBalancer / Ingres (production)
+
+```
+$ kubectl get svc
+$ kubectl delete svc broker-service
+$ kubectl expose deployment broker-service --type=LoadBalancer --port=8080 --target-port=8080
+$ kubectl get svc   # EXTERNAL-IP <pending>
+$ minikube tunnel
+```
