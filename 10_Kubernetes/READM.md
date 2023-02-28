@@ -72,3 +72,29 @@ $ kubectl get svc
 ```
 $ kubectl apply -f k8s/broker.yml
 ```
+
+### 110 When things go wrong
+
+```
+$ kubectl get deployments
+$ kubectl delete deployments broker-service mongo rabbitmq
+$ kubectl get deployments
+```
+
+```
+$ kubectl get svc
+$ kubectl delete svc broker-service mongo rabbitmq
+$ kubectl get svc
+```
+
+```
+$ kubectl apply -f k8s/
+$ kubectl get pods
+$ kubectl logs broker-service-5cbf7979ff-859sz
+```
+
+### 115 Running postgres on the host machine
+
+```
+$ docker-compose -f postgres.yml up -d
+```
