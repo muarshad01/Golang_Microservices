@@ -138,3 +138,5 @@ $ minikube addons enable ingress
 $ kubectl apply -f ingress.yml 
 $ kubect get ingress
 ```
+
+[How To Configure Ingress TLS/SSL Certificates in Kubernetes](https://devopscube.com/configure-ingress-tls-kubernetes/)
