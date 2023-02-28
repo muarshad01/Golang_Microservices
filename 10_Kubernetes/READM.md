@@ -66,3 +66,9 @@ $ kubectl apply -f k8s/rabbit.yml
 $ kubectl get pods
 $ kubectl get svc
 ```
+
+### 109 Creating a deployment file for Broker service
+
+```
+$ kubectl apply -f k8s/broker.yml
+```
