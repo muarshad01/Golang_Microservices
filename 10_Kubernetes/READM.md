@@ -58,3 +58,11 @@ $ kubectl get svc
 
 $ kubect get deployments
 ```
+
+### 108 Creating a deployment file for RabbitMQ
+
+```
+$ kubectl apply -f k8s/rabbit.yml
+$ kubectl get pods
+$ kubectl get svc
+```
