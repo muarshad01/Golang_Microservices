@@ -100,6 +100,10 @@ services:
 ***
 
 ## 14. Adding a button and JavaScript to the front end
+```go
+$ cd front-end
+$ go run ./cmd/web
+```
 
 ***
 
