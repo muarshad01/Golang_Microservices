@@ -1,5 +1,5 @@
 ## 09. What we'll cover in this section
-* User (via Browser) -> Broaker (in Docker)
+* User (via browser) -> Broaker (in Docker)
   
 ```
 $ Terminal -> New Terminal
