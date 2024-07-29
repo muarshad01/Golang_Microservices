@@ -29,6 +29,25 @@ $ go run ./cmd/web
 ***
 
 ## 12. Our first service: the Broker
+```go
+$ cd broker-service
+$ go mod init broker
+$ mkdir -p cmd/api
+$ cd cmd/api
+$ touch main.go
+$ touch routes.go
+$ touch handler.go
+```
+
+```go
+$ go get github.com/go-chi/chi/v5/middleware
+$ go get github.com/go-chi/chi/cors
+```
+
+```go
+$ cd broker-service
+$ go run ./cmd/api
+```
 
 ***
 
