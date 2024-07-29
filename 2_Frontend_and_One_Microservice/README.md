@@ -1,5 +1,9 @@
 ## 09. What we'll cover in this section
-
+```
+$ Terminal -> New Terminal
+$ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/project
+$ make up_build
+```
 ***
 
 ## 10. Setting up the front end
