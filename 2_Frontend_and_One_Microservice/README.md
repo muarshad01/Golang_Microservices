@@ -2,17 +2,6 @@
 * User (via browser) -> Broker Server (in Docker Image)
 * Also, set things up such that, it's really easy to have:
   * change I make to the broker code automatically compiled into a new Docker image and started in Docker.
-  
-```
-$ Terminal -> New Terminal
-
-$ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/project
-$ make up_build
-
-$ make start
-- Browser: localhost
-$ make stop
-```
 
 ***
 
@@ -21,7 +10,7 @@ $ make stop
 ***
 
 ## 11. Reviewing the front-end code
-```
+```go
 $ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/frontend
 $ go run ./cmd/web
 
