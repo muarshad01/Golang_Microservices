@@ -6,7 +6,7 @@ $ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice
 $ make up_build
 
 $ make start
-Browser: localhost
+- Browser: localhost
 $ make stop
 ```
 
