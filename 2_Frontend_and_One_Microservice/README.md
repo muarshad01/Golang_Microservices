@@ -24,7 +24,7 @@ $ go run ./cmd/web
 
 ***
 
-## 11. Reviewing the front end code
+## 11. Reviewing the front-end code
 
 ***
 
@@ -51,7 +51,7 @@ $ go run ./cmd/api
 
 ***
 
-## 13. Building a docker image for the Broker service
+## 13. Building a docker-image for the Broker service
 ```dockerfile
 # base go image
 FROM golang:1.18-alpine as builder
@@ -68,7 +68,7 @@ RUN CGO_ENABLED=0 go build -o brokerApp ./cmd/api
 RUN chmod +x /app/brokerApp
 
 ###########################
-# build a tiny docker image
+# build a tiny docker-image
 ###########################
 
 FROM alpine:latest
