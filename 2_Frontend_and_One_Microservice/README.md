@@ -43,6 +43,7 @@ $ go run ./cmd/api
 
 ## 13. Building a docker-image for the Broker service
 * Multi-stage build using a certified go docker image.
+
 ```dockerfile
 # base go image
 FROM golang:1.18-alpine as builder
@@ -71,7 +72,7 @@ COPY --from=builder /app/brokerApp /app
 CMD [ "/app/brokerApp" ]
 ```
 
-```dockerfile
+```yaml
 version: '3'
 
 services:
