@@ -1,7 +1,7 @@
 ## [Working with Microservices in Go (Golang)](https://www.udemy.com/course/working-with-microservices-in-go/?couponCode=PPINTENTP3)
 * [01 - Introduction](...)
 * [02 - Building a simple Front-end and One Microservice](https://github.com/muarshad01/Golang_Microservices/tree/main/2_Frontend_and_One_Microservice) -- Jul 29, 2024
-* [03 - Authentication Service](https://github.com/muarshad01/Golang_Microservices/tree/main/3_Authentication_Service)
+* [03 - Building an Authentication Service](https://github.com/muarshad01/Golang_Microservices/tree/main/3_Authentication_Service)
 * [04 - Logger Service](https://github.com/muarshad01/Golang_Microservices/tree/main/4_Logger_Service)
 * [05 - Mail Service](https://github.com/muarshad01/Golang_Microservices/tree/main/5_Mail_Service)
 * [06 - Listener Service](https://github.com/muarshad01/Golang_Microservices/tree/main/6_Listener_Service)
