@@ -1,3 +1,36 @@
+## 09. What we'll cover in this section
+
+***
+
+## 10. Setting up the front end
+
+***
+
+## 11. Reviewing the front end code
+
+***
+
+## 12. Our first service: the Broker
+
+***
+
+## 13. Building a docker image for the Broker service
+
+***
+
+## 14. Adding a button and JavaScript to the front end
+
+***
+
+## 15. Creating some helper functions to deal with JSON and such
+
+***
+
+## 16. Simplifying things with a Makefile (Mac & Linux)
+
+***
+
+## 17. Simplifying things with a Makefile (Windows)
 
 ***
 
