@@ -7,7 +7,7 @@ COPY . /app
 
 WORKDIR /app
 
-#                 go build [-o output] [build flags] [packages]
+# go build [-o output] [build flags] [packages]
 RUN CGO_ENABLED=0 go build -o brokerApp ./cmd/api
 
 RUN chmod +x /app/brokerApp
