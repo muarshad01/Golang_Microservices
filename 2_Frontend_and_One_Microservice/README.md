@@ -1,8 +1,12 @@
 ## 09. What we'll cover in this section
 ```
 $ Terminal -> New Terminal
+
 $ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/project
 $ make up_build
+$ make start
+
+Browser: localhost
 ```
 ***
 
