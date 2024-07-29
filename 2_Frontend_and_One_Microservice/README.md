@@ -80,6 +80,23 @@ COPY --from=builder /app/brokerApp /app
 CMD [ "/app/brokerApp" ]
 ```
 
+```dockerfile
+version: '3'
+
+services:
+
+  broker-service:
+    build:
+      context: ./../broker-service
+      dockerfile: ./../broker-service/broker-service.dockerfile
+    restart: always
+    ports:
+      - "8080:80"
+    deploy:
+      mode: replicated
+      replicas: 1
+```
+
 ***
 
 ## 14. Adding a button and JavaScript to the front end
