@@ -52,6 +52,33 @@ $ go run ./cmd/api
 ***
 
 ## 13. Building a docker image for the Broker service
+```
+# base go image
+FROM golang:1.18-alpine as builder
+
+RUN mkdir /app
+
+COPY . /app
+
+WORKDIR /app
+
+# go build [-o output] [build flags] [packages]
+RUN CGO_ENABLED=0 go build -o brokerApp ./cmd/api
+
+RUN chmod +x /app/brokerApp
+
+###########################
+# build a tiny docker image
+###########################
+
+FROM alpine:latest
+
+RUN mkdir /app
+
+COPY --from=builder /app/brokerApp /app
+
+CMD [ "/app/brokerApp" ]
+```
 
 ***
 
