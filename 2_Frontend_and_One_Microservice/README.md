@@ -1,5 +1,5 @@
 ## 09. What we'll cover in this section
-* User (via browser) -> Broaker (in Docker)
+* User (via browser) -> Broker Server (in Docker Image)
   
 ```
 $ Terminal -> New Terminal
