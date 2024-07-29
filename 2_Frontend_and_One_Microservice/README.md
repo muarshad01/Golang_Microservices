@@ -15,6 +15,10 @@ $ make stop
 ***
 
 ## 10. Setting up the front end
+```
+$ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/frontend
+$ go run ./cmd/web
+```
 
 ***
 
