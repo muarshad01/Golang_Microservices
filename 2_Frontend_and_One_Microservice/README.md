@@ -132,6 +132,6 @@ $ make up_build
 
 ***
 
-![Code Tree Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png | width=100)
+![Code Tree Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png | =250x250)
 
 ***
