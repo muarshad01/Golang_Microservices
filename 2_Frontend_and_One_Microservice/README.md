@@ -17,17 +17,16 @@ $ make stop
 ***
 
 ## 10. Setting up the front-end
+
+***
+
+## 11. Reviewing the front-end code
 ```
 $ cd /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/frontend
 $ go run ./cmd/web
 
 - Stop: control C
 ```
-
-***
-
-## 11. Reviewing the front-end code
-
 ***
 
 ## 12. Our first service: the Broker
