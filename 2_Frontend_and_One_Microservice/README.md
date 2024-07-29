@@ -89,6 +89,11 @@ services:
       replicas: 1
 ```
 
+```go
+$ /Users/marshad/Desktop/Golang_Microservices/2_Frontend_and_One_Microservice/go-micro/project
+$ docker-compose up -d
+```
+
 ***
 
 ## 14. Adding a button and JavaScript to the front-end
