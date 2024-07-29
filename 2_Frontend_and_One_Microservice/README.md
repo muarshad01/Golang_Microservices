@@ -52,7 +52,7 @@ $ go run ./cmd/api
 ***
 
 ## 13. Building a docker image for the Broker service
-```
+```dockerfile
 # base go image
 FROM golang:1.18-alpine as builder
 
