@@ -1,6 +1,7 @@
 ## 09. What we'll cover in this section
 * User (via browser) -> Broker Server (in Docker Image)
-* Also, set things up such that, it's really easy to have change I make to the broker code automatically compiled into a new Docker image and started in Docker.
+* Also, set things up such that, it's really easy to have:
+  * change I make to the broker code automatically compiled into a new Docker image and started in Docker.
   
 ```
 $ Terminal -> New Terminal
