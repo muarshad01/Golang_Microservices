@@ -112,6 +112,11 @@ $ go run ./cmd/web
 ***
 
 ## 16. Simplifying things with a Makefile (Mac & Linux)
+```dockerfile
+$ docker-compose down
+$ make stop
+$ make up_build
+```
 
 ***
 
