@@ -1,5 +1,7 @@
 ## 18. What we'll cover in this section
-
+* User try to Authenticate through the Broker
+* Persistence (Postgres db)
+  
 ***
 
 ## 19. Setting up a stub Authentication service
