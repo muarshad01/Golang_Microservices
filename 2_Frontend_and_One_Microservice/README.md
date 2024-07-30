@@ -117,6 +117,37 @@ $ make up_build
 
 ***
 
+```go
+main.go
+-------
+type Config struct {}
+app := Config{}
+...
+Handler: app.routes() 
+
+routes.go
+---------
+func (app *Config) routes() http.Handler {
+	...
+	mux.Post("/", app.Broker)
+}
+
+handler.go
+----------
+func (app *Config) Broker(w http.ResponseWriter, r *http.Request) {
+	...
+	_ = app.writeJSON(w, http.StatusOK, payload)
+}
+
+helpers.go
+----------
+func (app *Config) writeJSON(w http.ResponseWriter, status int, data any, headers ...http.Header) error {
+	...
+	_, err = w.Write(out)
+}
+```
+***
+
 ## 17. Simplifying things with a Makefile (Windows)
 
 ***
