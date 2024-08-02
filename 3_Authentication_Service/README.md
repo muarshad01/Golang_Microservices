@@ -5,6 +5,15 @@
 ***
 
 ## 19. Setting up a stub Authentication service
+```go
+$ cd authentication-service
+$ go mod init
+```
+
+```go
+$ go get github.com/go-chi/chi/v5
+$ go get github.com/go-chi/chi/v5/middleware
+```
 
 ***
 
