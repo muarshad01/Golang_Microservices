@@ -18,7 +18,11 @@ $ go get github.com/go-chi/cors
 ***
 
 ## 20. Creating and connecting to Postgres from the Authentication service
-
+```go
+$ go get github.com/jackc/pgconn
+$ go get github.com/pgx/v4
+$ go get github.com/pgx/stdlib
+```
 ***
 
 ## 21. A note about PostgreSQL
