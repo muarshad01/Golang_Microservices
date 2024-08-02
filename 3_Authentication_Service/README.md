@@ -62,7 +62,10 @@ CMD ["/app/authApp"]
 ```go
 $ cd <...>/project
 $ make up_build
+$ make down
+$ make up
 ```
+
 ***
 
 ## 23. Populating the Postgres database
