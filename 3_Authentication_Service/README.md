@@ -134,6 +134,10 @@ VALUES
 ***
 
 ## 24. Adding a route and handler to accept JSON
+* https://github.com/tsawler/toolbox
+```
+$ go get -u github.com/tsawler/toolbox
+```
 
 ***
 
