@@ -128,6 +128,9 @@ VALUES
 (E'admin@example.com',E'Admin',E'User',E'$2a$12$1zGLuYDDNvATh4RA4avbKuheAMpb1svexSzrQm7up.bnpwQHs0jNe',1,E'2022-03-14 00:00:00',E'2022-03-14 00:00:00');
 ```
 
+### Beekeeper Studio
+* https://www.beekeeperstudio.io/
+ 
 ***
 
 ## 24. Adding a route and handler to accept JSON
