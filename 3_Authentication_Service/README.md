@@ -42,9 +42,22 @@ postgres:
       - ./db-data/postgres/:/var/lib/postgresql/data/
 ```
 
+```
+$ mkdir ./project/db-data/postgres
+```
 ***
 
-## 22. Updating our docker-compose.yml for Postgres and the Authentication service
+## 22. Updating our `docker-compose.yml` for Postgres and the Authentication service
+
+```
+FROM alpine:latest
+
+RUN mkdir /app
+
+COPY authApp /app
+
+CMD ["/app/authApp"]
+```
 
 ***
 
