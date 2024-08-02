@@ -59,6 +59,10 @@ COPY authApp /app
 CMD ["/app/authApp"]
 ```
 
+```go
+$ cd <...>/project
+$ make up_build
+```
 ***
 
 ## 23. Populating the Postgres database
