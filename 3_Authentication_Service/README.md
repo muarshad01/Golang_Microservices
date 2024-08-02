@@ -26,6 +26,21 @@ $ go get github.com/pgx/stdlib
 ***
 
 ## 21. A note about PostgreSQL
+```dockerfile
+postgres:
+    image: 'postgres:14.2'
+    ports:
+      - "5432:5432"
+    deploy:
+      mode: replicated
+      replicas: 1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: users
+    volumes:
+      - ./db-data/postgres/:/var/lib/postgresql/data/
+```
 
 ***
 
