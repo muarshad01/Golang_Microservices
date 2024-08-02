@@ -146,6 +146,10 @@ $ go get -u github.com/tsawler/toolbox
 ***
 
 ## 26. Updating the front end to authenticate thorough the Broker and trying things out
+```go
+$ make up_build
+$ make start
+```
 
 ***
 
