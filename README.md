@@ -8,7 +8,7 @@
 * [07 - RPC](https://github.com/muarshad01/Golang_Microservices/tree/main/7_RPC)
 * [08 - gRPC](https://github.com/muarshad01/Golang_Microservices/tree/main/8_gRPC)
 * [09 - Docker Swarm](https://github.com/muarshad01/Golang_Microservices/tree/main/9_Docker_Swarm) -- August 03, 2024
-* [10 - Kubernetes(K8s)](https://github.com/muarshad01/Golang_Microservices/tree/main/10_Kubernetes)
+* [10 - Kubernetes(K8s)](https://github.com/muarshad01/Golang_Microservices/tree/main/10_Kubernetes) -- August 03, 2024
 
 ***
 
