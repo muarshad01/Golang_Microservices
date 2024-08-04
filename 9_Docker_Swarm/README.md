@@ -25,9 +25,7 @@ $ docker push marshad1/broker-service:1.0.0
 ### 78. Initializing and starting Docker Swarm
 ```bash
 $ docker swarm init
-```
 
-```bash
 $ docker swarm join-token <role>
 $ docker swarm join-token worker
 $ docker swarm join-token manager
