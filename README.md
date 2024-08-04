@@ -1,4 +1,4 @@
-* `Build highly available, scalable, resilient distributed (RDD) applications using Go`
+* `Build highly available, scalable, resilient-distributed (RDD) applications using Go`
 
 ***
 
