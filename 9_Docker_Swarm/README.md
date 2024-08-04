@@ -1,4 +1,4 @@
-1. Build and tag our docker images and push them somewhere because docker-swarm needs to pull those image from somewhere.
+d1. Build and tag our docker images and push them somewhere because docker-swarm needs to pull those image from somewhere.
 
 ### 76. Building/Tagging images for our microservices
 * `https://hub.docker.com/`
@@ -58,9 +58,9 @@ $ docker service ls
 ```
 
 ```bash
-$ docker service update --image marshad1/logger-service:1.0.1 myapp_docker-service #up-grade
+$ docker service update --image marshad1/logger-service:1.0.1 myapp_docker-service    # up-grade
 $ docker service ls
-$ docker service update --image marshad1/logger-service:1.0.0 myapp_docker-service #down-grade
+$ docker service update --image marshad1/logger-service:1.0.0 myapp_docker-service    # down-grade
 $ docker service ls
 ```
 
@@ -88,7 +88,11 @@ $ docker swarm init
 $ docker stack deploy -c swarm.yml myapp
 ```
 
+***
+
 ### 88. Correcting the URL
+
+***
 
 ### 89. Solution to challenge
 ```bash
@@ -97,6 +101,8 @@ $ cd ../front-end
 $ docker build -f front-end.dockerfile -t marshad1/front-end:1.0.1 .
 $ docker push marshad1/front-end:1.0.1
 ```
+
+***
 
 ### 92. Setting up a non-root account and putting a firewall in place
 ```bash
@@ -110,7 +116,7 @@ Retype new password:
 $ usermod -aG sudo mua
 
 # Setup basic firewall
-$ ufw allow ssh     # uncomplicated fire-wall
+$ ufw allow ssh        # uncomplicated fire-wall
 $ ufw allow http
 $ ufw allow https
 $ ufw allow 2377/tcp
