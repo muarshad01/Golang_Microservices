@@ -1,8 +1,10 @@
-* `Build highly available, scalable, resilient-distributed (RDD) applications using Go`
-
 ***
 
 ## [Working with Microservices in Go (Golang)](https://www.udemy.com/course/working-with-microservices-in-go/?couponCode=PPINTENTP3)
+* `Build highly available, scalable, resilient-distributed (RDD) applications using Go`
+
+***
+## Lectures
 * [01 - Introduction](...)
 * [02 - Building a simple Front-end and One Microservice](https://github.com/muarshad01/Golang_Microservices/tree/main/2_Frontend_and_One_Microservice) -- Jul 29, 2024
 * [03 - Building an Authentication Service](https://github.com/muarshad01/Golang_Microservices/tree/main/3_Authentication_Service) -- Aug 02, 2024
