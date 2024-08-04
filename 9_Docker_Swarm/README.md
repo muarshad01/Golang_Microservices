@@ -1,12 +1,10 @@
 
 1. Build and tag our documer images and push them somewhere because docker-swarm needs to pull those image from somewhere.
 
-### 76 Building/Tagging images for our microservices
+## 76. Building/Tagging images for our microservices
+* `https://hub.docker.com/`
 
-`https://hub.docker.com/`
-
-
-```
+```bash
 $ cd logger-service
 $ docker build -f logger-service.dockerfile -t marshad1/logger-service:1.0.0 .  #Build & tag
 $ docker push marshad1/logger-service:1.0.0
@@ -22,8 +20,9 @@ $ cd broker-service
 $ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
 $ docker push marshad1/broker-service:1.0.0
 ```
+***
 
-### 78 Initializing and starting Docker Swarm
+##78 Initializing and starting Docker Swarm
 
 ```
 $ docker swarm init
