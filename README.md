@@ -21,7 +21,7 @@
 ![Code Tee Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png)
 -->
 
-<img src="[http://....jpg](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png" width="200" height="200" />
+<img src="https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png" width="200" height="200" />
 
 
 ***
