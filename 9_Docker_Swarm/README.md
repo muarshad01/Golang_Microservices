@@ -1,6 +1,6 @@
 1. Build and tag our docker images and push them somewhere because docker-swarm needs to pull those image from somewhere.
 
-## 76. Building/Tagging images for our microservices
+### 76. Building/Tagging images for our microservices
 * `https://hub.docker.com/`
 
 ```bash
@@ -22,7 +22,7 @@ $ docker push marshad1/broker-service:1.0.0
 
 ***
 
-## 78. Initializing and starting Docker Swarm
+### 78. Initializing and starting Docker Swarm
 ```bash
 $ docker swarm init
 ```
@@ -42,7 +42,7 @@ $ docker service ls
 ```
 ***
 
-## 80. Scaling services
+### 80. Scaling services
 ```bash
 $ docker service scale myapp_listener-service=3
 $ docker service ls
@@ -50,7 +50,7 @@ $ docker service ls
 
 ***
 
-## 81. Updating services
+### 81. Updating services
 ```bash
 $ cd logger-service
 $ docker build -f logger-service.dockerfile -t marshad1/logger-service:1.0.1 .
@@ -67,7 +67,7 @@ $ docker service ls
 
 ***
 
-## 82. Stopping docker swarm
+### 82. Stopping docker swarm
 ```bash
 $ docker stack rm myapp
 $ docker swarm leave --force
@@ -75,7 +75,7 @@ $ docker swarm leave --force
 
 ***
 
-## 86. Adding Caddy to the mix as a Proxy to our Front-end and the Broker
+### 86. Adding Caddy to the mix as a Proxy to our Front-end and the Broker
 * Apache / Nginx / Caddy
 * [Caddy](https://caddyserver.com/)
 ```bash
@@ -83,15 +83,15 @@ $ docker build -f caddy.dockerfile -t marshad1/micro-caddy:1.0.0 .
 $ docker push marshad1/micro-caddy:1.0.0
 ```
 
-## 87. Modifying out hosts file...
+### 87. Modifying out hosts file...
 ```bash
 $ docker swarm init
 $ docker stack deploy -c swarm.yml myapp
 ```
 
-## 88. Correcting the URL
+### 88. Correcting the URL
 
-## 89. Solution to challenge
+### 89. Solution to challenge
 ```bash
 $ make build_front_linux
 $ cd ../front-end
@@ -99,7 +99,7 @@ $ docker build -f front-end.dockerfile -t marshad1/front-end:1.0.1 .
 $ docker push marshad1/front-end:1.0.1
 ```
 
-## 92. Setting up a non-root account and putting a firewall in place
+### 92. Setting up a non-root account and putting a firewall in place
 ```bash
 # Create a user
 $ ssh root@a.b.c.d
@@ -126,9 +126,11 @@ $ ufw status
 
 ***
 
-## 93. Installing Docker on the servers
+### 93. Installing Docker on the servers
 
-## 94. Setting the hostname for our server
+***
+
+### 94. Setting the hostname for our server
 ```bash
 $ sudo hostnamectl set-hostname node-1
 $ exit
@@ -137,10 +139,12 @@ $ ssh mua@a.b.c.d
 
 ***
 
-## 95. Adding DNS entries for our servers
+### 95. Adding DNS entries for our servers
 * [GoDaddy](https://www.godaddy.com/)
 
-## 97. Initializing manager, and adding a worker
+***
+
+### 97. Initializing manager, and adding a worker
 ```bash
 $ sudo docker swarm init --advertise-addr a.b.c.d
 ```
