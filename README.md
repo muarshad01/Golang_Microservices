@@ -9,13 +9,13 @@
 * [01 - Introduction](...)
 * [02 - Building a simple Front-end and One Microservice](https://github.com/muarshad01/Golang_Microservices/tree/main/2_Frontend_and_One_Microservice) -- Jul 29, 2024
 * [03 - Building an Authentication Service](https://github.com/muarshad01/Golang_Microservices/tree/main/3_Authentication_Service) -- Aug 02, 2024
-* [04 - Logger Service](https://github.com/muarshad01/Golang_Microservices/tree/main/4_Logger_Service)
-* [05 - Mail Service](https://github.com/muarshad01/Golang_Microservices/tree/main/5_Mail_Service) - N/A
-* [06 - Listener Service](https://github.com/muarshad01/Golang_Microservices/tree/main/6_Listener_Service)
+* [04 - Building a Logger Service](https://github.com/muarshad01/Golang_Microservices/tree/main/4_Logger_Service)
+* [05 - Building a Mail Service](https://github.com/muarshad01/Golang_Microservices/tree/main/5_Mail_Service) - N/A
+* [06 - Building a Listener Service: AMQP and RabbiMQ](https://github.com/muarshad01/Golang_Microservices/tree/main/6_Listener_Service)
 * [07 - RPC](https://github.com/muarshad01/Golang_Microservices/tree/main/7_RPC)
 * [08 - gRPC](https://github.com/muarshad01/Golang_Microservices/tree/main/8_gRPC)
 * [09 - Docker Swarm](https://github.com/muarshad01/Golang_Microservices/tree/main/9_Docker_Swarm) -- August 03, 2024
-* [10 - Kubernetes(K8s)](https://github.com/muarshad01/Golang_Microservices/tree/main/10_Kubernetes) -- August 03, 2024
+* [10 - Kubernetes (K8s)](https://github.com/muarshad01/Golang_Microservices/tree/main/10_Kubernetes) -- August 03, 2024
 
 ***
 
