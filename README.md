@@ -1,3 +1,10 @@
+## 
+* Build highly available, scalable, resilient distributed (RDD) applications using Go
+
+***
+
+***
+
 ## [Working with Microservices in Go (Golang)](https://www.udemy.com/course/working-with-microservices-in-go/?couponCode=PPINTENTP3)
 * [01 - Introduction](...)
 * [02 - Building a simple Front-end and One Microservice](https://github.com/muarshad01/Golang_Microservices/tree/main/2_Frontend_and_One_Microservice) -- Jul 29, 2024
@@ -12,11 +19,7 @@
 
 ***
 
-`Build highly available, scalable, resilient distributed applications using Go`
-
-***
-
-## Dir Structure for Project
+## Directory Structure for Project
 
 ![Code Tee Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png)
 
