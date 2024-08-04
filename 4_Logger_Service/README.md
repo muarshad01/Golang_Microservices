@@ -18,19 +18,19 @@
 
 ***
 
-### 32. Adding MongoDB to our docker-compose.yml file
+### 32. Adding MongoDB to our `docker-compose.yml` file
 
 ***
 
-### 33. Add the logger-service to docker-compose.yml and the Makefile
+### 33. Add the logger-service to `docker-compose.yml` and the Makefile
 
 ***
 
-### 34. Adding a route and handler on the Broker to communicate with the logger service
+### 34. Adding a route and handler on the Broker to communicate with the logger-service
 
 ***
 
-### 35. Update the front end to post to the logger, via the broker
+### 35. Update the front-end to post to the logger, via the broker
 
 ***
 
@@ -42,7 +42,7 @@
 
 ***
 
-```
+```go
 go get go.mongodb.org/mongo-driver/mongo
 go get go.mongodb.org/mongo-driver/mongo/options
 ```
