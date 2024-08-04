@@ -26,9 +26,12 @@
 
 <img src="https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png" width="400" height="400" />
 
-
 ***
 
+<!--
 ![Code UML Diagram](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/uml.png)
+-->
+
+<img src="https://github.com/muarshad01/Microservices-in-Go/blob/main/images/uml.png" width="600" height="600" />
 
 ***
