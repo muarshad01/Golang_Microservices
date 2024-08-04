@@ -17,8 +17,13 @@
 ***
 
 ## Directory Structure for Project
-
+<!--
 ![Code Tee Structure](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png)
+-->
+![]([./pic/pic1s.png](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/code_tree.png) =250x)
+
+***
 
 ![Code UML Diagram](https://github.com/muarshad01/Microservices-in-Go/blob/main/images/uml.png)
 
+***
