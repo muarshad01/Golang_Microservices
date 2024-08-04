@@ -4,7 +4,7 @@
 ## 76. Building/Tagging images for our microservices
 * `https://hub.docker.com/`
 
-```bash
+```linux
 $ cd logger-service
 $ docker build -f logger-service.dockerfile -t marshad1/logger-service:1.0.0 .  #Build & tag
 $ docker push marshad1/logger-service:1.0.0
