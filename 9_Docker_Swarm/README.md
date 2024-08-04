@@ -4,22 +4,22 @@
 ## 76. Building/Tagging images for our microservices
 * `https://hub.docker.com/`
 
-```linux
+```bash
 $ cd logger-service
 $ docker build -f logger-service.dockerfile -t marshad1/logger-service:1.0.0 .  #Build & tag
 $ docker push marshad1/logger-service:1.0.0
 
-
 ERROR: denied: requested access to the resource is denied
 $ docker login
-Username: <username>
-Username: marshad1
-Password: <password>
+- Username: <username>
+- Username: marshad1
+- Password: <password>
 
 $ cd broker-service
 $ docker build -f broker-service.dockerfile -t marshad1/broker-service:1.0.0 .
 $ docker push marshad1/broker-service:1.0.0
 ```
+
 ***
 
 ##78 Initializing and starting Docker Swarm
