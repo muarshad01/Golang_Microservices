@@ -14,7 +14,7 @@
 
 ***
 
-### 31. Setting up routes, handlers, helpers, and a web server in our logger-service
+### 31. Setting up routes, handlers, helpers, and a web server in our Logger service
 
 ***
 
@@ -26,11 +26,11 @@
 
 ***
 
-### 34. Adding a route and handler on the Broker to communicate with the logger-service
+### 34. Adding a route and handler on the Broker to communicate with the Logger service
 
 ***
 
-### 35. Update the front-end to post to the logger, via the broker
+### 35. Update the front-end to post to the logger, via the Broker
 
 ***
 
@@ -39,10 +39,9 @@
 ***
 
 ### 37. Trying things out
-
-***
-
 ```go
 go get go.mongodb.org/mongo-driver/mongo
 go get go.mongodb.org/mongo-driver/mongo/options
 ```
+
+***
