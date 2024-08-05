@@ -15,6 +15,10 @@ $ go get go.mongodb.org/mongo-driver/options
 ***
 
 ### 30. Finishing up the Logger data models
+```go
+$ go get github.com/go-chi/chi/middleware
+$ go get github.com/go-chi/cors
+```
 
 ***
 
@@ -23,6 +27,10 @@ $ go get go.mongodb.org/mongo-driver/options
 ***
 
 ### 32. Adding MongoDB to our `docker-compose.yml` file
+```go
+$ cd logger-service
+$ go run ./run/api
+```
 
 ***
 
