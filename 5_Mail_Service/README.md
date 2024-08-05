@@ -3,6 +3,11 @@
 ### 39. Adding Mailhog to our docker-compose.yml
 ***
 ### 40. Setting up a stub Mail microservice
+```go
+$ go get github.com/go-chi/chi/v5
+$ go get github.com/go-chi/chi/v5/middleware
+$ go get github.com/go-chi/cors
+```
 ***
 ### 41. Building the logic to send email
 ***
