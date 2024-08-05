@@ -3,6 +3,9 @@
 ***
 
 ### 49. Creating a stub Listener service
+```go
+$ go get github.com/rabbitmq/amqp091-go
+```
 
 ***
 
