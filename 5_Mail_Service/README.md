@@ -40,6 +40,10 @@ $ go get github.com/vanng822/xhit/go-simple-mail/v2
 ***
 
 ### 46. Updating the front end to send mail
+```go
+$ make down
+$ make up_build
+```
 
 ***
 
