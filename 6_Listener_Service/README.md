@@ -26,6 +26,10 @@ $ go get github.com/rabbitmq/amqp091-go
 ***
 
 ### 54. Updating main.go to start the Listener function
+```go
+$ cd listener-service
+$ go run .
+```
 
 ***
 
