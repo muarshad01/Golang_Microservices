@@ -56,9 +56,6 @@ make up_build
 ***
 
 ### 37. Trying things out
-```go
-go get go.mongodb.org/mongo-driver/mongo
-go get go.mongodb.org/mongo-driver/mongo/options
-```
+* https://www.mongodb.com/products/tools/compass
 
 ***
