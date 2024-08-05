@@ -3,6 +3,10 @@
 ***
 
 ### 28. Getting started with the Logger service
+```go
+$ go get go.mongodb.org/mongo-driver/mongo
+$ go get go.mongodb.org/mongo-driver/options
+```
 
 ***
 
