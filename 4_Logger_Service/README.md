@@ -57,5 +57,8 @@ make up_build
 
 ### 37. Trying things out
 * https://www.mongodb.com/products/tools/compass
+* __New Connection__:
+  * `mongodb:<username>:<password>@localhost:27017/<database>?`
+  * `mongodb:admin:password@localhost:27017/logs?authSource=admin&readPreference=primary&appName=MongoDB%20Compass&directConnection=true&ssl=false`
 
 ***
