@@ -84,14 +84,6 @@ $ protoc --version
 
 ***
 
-## Tools for compiling `.proto` file
-```go
-$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
-$ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
-```
-
-***
-
 ### Install VSCode extension 
 * Profobuf support
 
