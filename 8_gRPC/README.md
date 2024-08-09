@@ -1,19 +1,39 @@
 ### 66. What we'll cover in this section
+
 ***
+
 ### 67. Installing the necessary tools for `gRPC`
+```go
+$ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
+$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
+```
+
 ***
+
 ### 68. Defining a Protocol for gRPC: the `.proto` file
+
 ***
+
 ### 69. Generating the gRPC code from the command line
+
 ***
+
 ### 70. Getting started with the gRPC server
+
 ***
+
 ### 71. Listening for gRPC connections in the Logger microservice
+
 ***
+
 ### 72. Writing the client code
+
 ***
+
 ### 73. Updating the front end code
+
 ***
+
 ### 74. Trying things out
 
 ***
