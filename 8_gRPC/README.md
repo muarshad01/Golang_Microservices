@@ -11,6 +11,36 @@ $ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
 ***
 
 ### 68. Defining a Protocol for gRPC: the `.proto` file
+```go
+$ cd logger-service
+$ mkdir logs & cd logs
+$ touch logs.proto
+```
+
+```proto
+syntax = "proto3";
+
+package logs;
+
+option go_package = "/logs";
+
+message Log {
+    string name = 1;
+    string data = 2;
+}
+
+message LogRequest {
+    Log logEntry = 1;
+}
+
+message LogResponse {
+    string result = 1;
+}
+
+service LogService {
+    rpc WriteLog(LogRequest) returns (LogResponse);
+}
+```
 
 ***
 
