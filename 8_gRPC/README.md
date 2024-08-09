@@ -46,8 +46,7 @@ service LogService {
 
 ### 69. Generating the gRPC code from the command line
 ```go
-$ cd ~/Desktop/.../logger-service/logs
-
+$ cd /Users/marshad/Desktop/Golang_Microservices/8_gRPC/logger-service/logs
 ```
 
 ***
