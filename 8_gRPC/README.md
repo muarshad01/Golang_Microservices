@@ -50,7 +50,8 @@ $ cd /Users/marshad/Desktop/Golang_Microservices/8_gRPC/logger-service/logs
 ```
 
 #### [Protocol Buffer Compiler Installation](https://grpc.io/docs/protoc-installation/)
-* https://github.com/protocolbuffers/protobuf/releases -> Assets `protoc-21.12-osx-aarch_64.zip`
+* https://github.com/protocolbuffers/protobuf/releases
+* Assets `protoc-21.12-osx-aarch_64.zip`
 
 ```bash
 $ cp ./bin/protoc $GOBIN
