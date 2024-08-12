@@ -112,13 +112,4 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 export GO111MODULE="on"
 ```
-
-***
-
-
-```go
-$ go get google.golang.org/grpc
-$ go get google.golang.org/protobuf
-```
-
 ***
