@@ -14,7 +14,7 @@
 * [06 - Building a Listener Service: AMQP and RabbiMQ](https://github.com/muarshad01/Golang_Microservices/tree/main/6_Listener_Service) -- August 05, 2024
   * [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)
 * [07 - RPC](https://github.com/muarshad01/Golang_Microservices/tree/main/7_RPC) -- August 09, 2024
-* [08 - gRPC](https://github.com/muarshad01/Golang_Microservices/tree/main/8_gRPC) -- August xx, 2024
+* [08 - gRPC](https://github.com/muarshad01/Golang_Microservices/tree/main/8_gRPC) -- August 12, 2024
 * [09 - Docker Swarm](https://github.com/muarshad01/Golang_Microservices/tree/main/9_Docker_Swarm) -- August 03, 2024
 * [10 - Kubernetes (K8s)](https://github.com/muarshad01/Golang_Microservices/tree/main/10_Kubernetes) -- August 03, 2024
 
