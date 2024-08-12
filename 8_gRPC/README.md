@@ -58,6 +58,14 @@ $ cp ./bin/protoc $GOBIN
 $ protoc --version
 ```
 
+```go
+$ protoc \ 
+--go_out=. \ 
+--go_opt=paths=source_relative \
+--go-grpc_out=. \
+--go-grpc_opt=paths=source_relative \ 
+logs.proto
+```
 ***
 
 ### 70. Getting started with the gRPC server
@@ -101,16 +109,6 @@ export GO111MODULE="on"
 
 ***
 
-```go
-$ protoc \ 
---go_out=. \ 
---go_opt=paths=source_relative \
---go-grpc_out=. \
---go-grpc_opt=paths=source_relative \ 
-logs.proto
-```
-
-***
 
 ```go
 $ go get google.golang.org/grpc
