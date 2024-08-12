@@ -104,7 +104,6 @@ logs.proto
 ***
 
 ### `~/.bash_profile`
-
 ```bash
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/goworkspace
