@@ -46,7 +46,7 @@ service LogService {
 
 ### 69. Generating the gRPC code from the command line
 ```go
-$ cd /Users/marshad/Desktop/Golang_Microservices/8_gRPC/logger-service/logs
+$ cd ~/Desktop/Golang_Microservices/8_gRPC/logger-service/logs
 ```
 
 #### [Protocol Buffer Compiler Installation](https://grpc.io/docs/protoc-installation/)
