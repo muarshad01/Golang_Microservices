@@ -66,6 +66,12 @@ $ protoc \
 --go-grpc_opt=paths=source_relative \ 
 logs.proto
 ```
+
+```bash
+- logs.pb.go
+- logs.proto
+```
+
 ***
 
 ### 70. Getting started with the gRPC server
