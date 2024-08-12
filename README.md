@@ -20,7 +20,14 @@
 
 ***
 
-## Path
+### `~/.bash_profile`
+```bash
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/goworkspace
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
+export GO111MODULE="on"
+```
 
 ***
 
